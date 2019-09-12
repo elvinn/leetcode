@@ -1,0 +1,31 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "record leetcode practice",
+  "scripts": {
+    "lint": "prettier-standard --lint",
+    "test": "ava",
+    "test:watch": "ava --watch --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elvinn/leetcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elvinn/leetcode/issues"
+  },
+  "homepage": "https://github.com/elvinn/leetcode#readme",
+  "devDependencies": {
+    "ava": "^2.3.0",
+    "fs-extra": "^8.1.0",
+    "prettier-standard": "^14.0.5"
+  },
+  "ava": {
+    "files": [
+      "src/**/*"
+    ]
+  }
+}
