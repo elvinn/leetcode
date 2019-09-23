@@ -1,6 +1,6 @@
 /**
  * https://leetcode.com/problems/remove-duplicates-from-sorted-array/
- * 
+ *
  * Type: Array
  * Difficulty: Easy
  * Time Complexity: O(n)
@@ -26,8 +26,7 @@ var removeDuplicates = function (nums = []) {
   return nums.length - diff
 }
 
-
-function main() {
+function main () {
   const testList = [
     {
       testData: [1, 1, 2],
@@ -38,7 +37,7 @@ function main() {
       result: [0, 1, 2, 3, 4]
     }
   ]
-  
+
   for (const { testData, result } of testList) {
     test(JSON.stringify(testData), t => {
       t.is(removeDuplicates(testData), result.length)
