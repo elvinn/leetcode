@@ -13,9 +13,9 @@ import test from 'ava'
  * @param {number[]} nums
  * @return {number}
  */
-var singleNumber = function(nums = []) {
+var singleNumber = function (nums = []) {
   return nums.reduce((prev, cur) => prev ^ cur, 0)
-};
+}
 
 function main () {
   const testList = [
@@ -24,7 +24,7 @@ function main () {
       result: 1
     },
     {
-      testArr: [4,1,2,1,2],
+      testArr: [4, 1, 2, 1, 2],
       result: 4
     }
   ]

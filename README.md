@@ -9,3 +9,4 @@ Record practice with leetcode.
 1. [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 2. [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 3. [136. Single Number](https://leetcode.com/problems/single-number/)
+4. [66. Plus One](https://leetcode.com/problems/plus-one/)
