@@ -11,6 +11,7 @@ Record practice with leetcode.
 3. [136. Single Number](https://leetcode.com/problems/single-number/)
 4. [66. Plus One](https://leetcode.com/problems/plus-one/)
 5. [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+6. [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
 ## Thanks List
 
