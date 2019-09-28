@@ -12,6 +12,7 @@ Record practice with leetcode.
 4. [66. Plus One](https://leetcode.com/problems/plus-one/)
 5. [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 6. [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+7. [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 
 ## Thanks List
 
