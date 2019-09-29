@@ -14,6 +14,7 @@ Record practice with leetcode.
 6. [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 7. [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 8. [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+9. [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
 ## Thanks List
 
