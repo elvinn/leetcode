@@ -15,6 +15,7 @@ Record practice with leetcode.
 7. [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 8. [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 9. [1. Two Sum](https://leetcode.com/problems/two-sum/)
+10. [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
 
 ## Thanks List
 
