@@ -17,7 +17,7 @@ import test from 'ava'
  * @param {number} target
  * @return {number[]}
  */
-var twoSum1 = function(nums, target) {
+var twoSum1 = function (nums, target) {
   const hashMap = new Map()
   for (let i = 0; i < nums.length; i++) {
     const diff = target - nums[i]
@@ -26,7 +26,7 @@ var twoSum1 = function(nums, target) {
     }
     hashMap.set(nums[i], i)
   }
-};
+}
 
 /**
  * Brute Force
@@ -36,15 +36,15 @@ var twoSum1 = function(nums, target) {
  * @param {number} target
  * @return {number[]}
  */
-var twoSum2 = function(nums, target) {
-    for (let i = 0; i < nums.length - 1; i++) {
-      for (let j = i + 1; j < nums.length; j++) {
-        if (nums[i] + nums[j] === target) {
-          return [i, j]
-        }
+var twoSum2 = function (nums, target) {
+  for (let i = 0; i < nums.length - 1; i++) {
+    for (let j = i + 1; j < nums.length; j++) {
+      if (nums[i] + nums[j] === target) {
+        return [i, j]
       }
     }
-};
+  }
+}
 
 function main () {
   const testList = [
