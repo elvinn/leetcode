@@ -23,10 +23,8 @@ var moveZeroes = function (nums = 0) {
 
     if (zeroNum) {
       nums[i - zeroNum] = nums[i]
+      nums[i] = 0
     }
-  }
-  for (let i = nums.length - 1; i > nums.length - zeroNum - 1; i--) {
-    nums[i] = 0
   }
 }
 
