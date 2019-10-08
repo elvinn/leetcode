@@ -21,7 +21,7 @@ Record practice with leetcode.
 ### String
 
 1. [344. Reverse String](https://leetcode.com/problems/reverse-string/)
-
+2. [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 
 ## Thanks List
 

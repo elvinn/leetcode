@@ -6,7 +6,7 @@
  * Space Complexity: O(1)
  */
 
-// import test from 'ava'
+import test from 'ava'
 
 /**
  * @param {number[][]} matrix
