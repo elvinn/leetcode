@@ -16,6 +16,11 @@ Record practice with leetcode.
 8. [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 9. [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
+### String
+
+1. [344. Reverse String](https://leetcode.com/problems/reverse-string/)
+
+
 ## Thanks List
 
 1. [leetcode.com - interview card](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
