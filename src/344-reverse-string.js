@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/reverse-string/
  *
- * Type: Array
+ * Type: String
  * Difficulty: Easy
  * Time Complexity: O(n)
  * Space Complexity: O(1)

@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/reverse-integer/
  *
- * Type: Array
+ * Type: String
  * Difficulty: Easy
  * Time Complexity: O(ln[n])
  * Space Complexity: O(1)
