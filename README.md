@@ -24,6 +24,7 @@ Record practice with leetcode.
 2. [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 3. [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
 4. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+5. [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
 ## Thanks List
 
