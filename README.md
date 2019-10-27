@@ -26,6 +26,7 @@ Record practice with leetcode.
 4. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 5. [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 6. [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)
+7. [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
 
 ## Thanks List
 
