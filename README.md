@@ -27,6 +27,7 @@ Record practice with leetcode.
 5. [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 6. [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)
 7. [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+8. [38. Count and Say](https://leetcode.com/problems/count-and-say/)
 
 ## Thanks List
 
