@@ -28,6 +28,7 @@ Record practice with leetcode.
 6. [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)
 7. [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
 8. [38. Count and Say](https://leetcode.com/problems/count-and-say/)
+9. [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
 ## Thanks List
 
