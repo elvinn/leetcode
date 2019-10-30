@@ -30,6 +30,10 @@ Record practice with leetcode.
 8. [38. Count and Say](https://leetcode.com/problems/count-and-say/)
 9. [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
+### Linked List
+
+1. [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+
 ## Thanks List
 
 1. [leetcode.com - interview card](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
