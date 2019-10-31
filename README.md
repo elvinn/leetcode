@@ -2,7 +2,7 @@
 
 Record practice with leetcode.
 
-## Easy Problesm
+## Easy Problems
 
 ### Array
 
@@ -33,6 +33,7 @@ Record practice with leetcode.
 ### Linked List
 
 1. [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+2. [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
 ## Thanks List
 
