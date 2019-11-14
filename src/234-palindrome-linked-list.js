@@ -62,7 +62,7 @@ var isPalindrome = function (head) {
 
 function main () {
   test('No test for linked list problems', t => {
-    t.is(isPalindrome(), undefined)
+    t.is(isPalindrome(), true)
   })
 }
 

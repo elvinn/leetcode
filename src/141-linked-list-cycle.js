@@ -38,7 +38,7 @@ var hasCycle = function (head) {
 
 function main () {
   test('No test for linked list problems', t => {
-    t.is(hasCycle(), undefined)
+    t.is(hasCycle(), false)
   })
 }
 

@@ -22,7 +22,7 @@ import test from 'ava'
  * @return {ListNode}
  */
 var removeNthFromEnd = function (head, n) {
-  if (n <= 0) {
+  if (!head || n <= 0) {
     return head
   }
 
