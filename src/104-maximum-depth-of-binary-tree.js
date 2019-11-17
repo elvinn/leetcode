@@ -3,8 +3,8 @@
  *
  * Type: Trees
  * Difficulty: Easy
- * Time Complexity: O(nlogn)
- * Space Complexity: O()
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
  */
 
 import test from 'ava'
