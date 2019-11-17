@@ -42,6 +42,7 @@ Record practice with leetcode.
 ### Trees
 
 1. [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+2. [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
 ## Thanks List
 
