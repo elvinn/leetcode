@@ -39,6 +39,10 @@ Record practice with leetcode.
 5. [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 6. [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
+### Trees
+
+1. [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+
 ## Thanks List
 
 1. [leetcode.com - interview card](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
