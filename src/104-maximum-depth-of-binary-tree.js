@@ -18,7 +18,7 @@ import test from 'ava'
  */
 
 /**
- * recursive alalgorithm
+ * recursive algorithm
  * @param {TreeNode} root
  * @return {number}
  */
