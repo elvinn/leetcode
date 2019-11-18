@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/validate-binary-search-tree/
  *
- * Type: Linked List
+ * Type: Trees
  * Difficulty: Medium
  * Time Complexity: O(n)
  * Space Complexity: O(n)
@@ -52,7 +52,7 @@ var isValidBST = function (root) {
 }
 
 function main () {
-  test('No test for linked list problems', t => {
+  test('No test for trees problems', t => {
     t.is(isValidBST(), false)
   })
 }
