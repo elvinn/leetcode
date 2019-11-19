@@ -53,7 +53,7 @@ var isValidBST = function (root) {
 
 function main () {
   test('No test for trees problems', t => {
-    t.is(isValidBST(), false)
+    t.is(isValidBST(null), true)
   })
 }
 

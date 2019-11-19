@@ -79,8 +79,8 @@ var levelOrder2 = function (root) {
 
 function main () {
   test('No test for trees problems', t => {
-    t.is(levelOrder1(), [])
-    t.is(levelOrder2(), [])
+    t.deepEqual(levelOrder1(), [])
+    t.deepEqual(levelOrder2(), [])
   })
 }
 
