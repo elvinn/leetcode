@@ -45,6 +45,7 @@ Record practice with leetcode.
 2. [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 3. [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 4. [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+5. [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 
 ## Thanks List
 
