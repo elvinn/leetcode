@@ -47,6 +47,10 @@ Record practice with leetcode.
 4. [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 5. [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 
+### Sorting And Searching
+
+1. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+
 ## Thanks List
 
 1. [leetcode.com - interview card](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
