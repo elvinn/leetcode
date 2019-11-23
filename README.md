@@ -50,6 +50,7 @@ Record practice with leetcode.
 ### Sorting And Searching
 
 1. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+2. [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
 ## Thanks List
 
