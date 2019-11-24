@@ -56,6 +56,7 @@ Record practice with leetcode.
 ### Dynamic Programming
 
 1. [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+2. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ## Thanks List
 
