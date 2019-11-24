@@ -4,7 +4,7 @@
  * Type: Dynamic Programming
  * Difficulty: Easy
  * Time Complexity: O(n)
- * Space Complexity: O(n)
+ * Space Complexity: O(1)
  */
 
 import test from 'ava'
@@ -18,23 +18,15 @@ var maxProfit = function (prices) {
     return 0
   }
 
-  const notes = [
-    {
-      maxProfit: 0,
-      minPrice: prices[0]
-    }
-  ]
-
+  let maxProfit = 0
+  let minPrice = prices[0]
   for (let i = 1; i < prices.length; i++) {
     const price = prices[i]
-    const { maxProfit, minPrice } = notes[i - 1]
-    notes[i] = {
-      maxProfit: Math.max(maxProfit, price - minPrice),
-      minPrice: Math.min(minPrice, price)
-    }
+    maxProfit = Math.max(maxProfit, price - minPrice)
+    minPrice = Math.min(minPrice, price)
   }
 
-  return notes[prices.length - 1].maxProfit
+  return maxProfit
 }
 
 function main () {
