@@ -4,7 +4,7 @@
  * Type: Sorting and Searching
  * Difficulty: Easy
  * Time Complexity: O(logn)
- * Space Complexity: O(1?)
+ * Space Complexity: O(1)
  */
 
 import test from 'ava'
