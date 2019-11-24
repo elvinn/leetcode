@@ -52,12 +52,12 @@ Record practice with leetcode.
 1. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 2. [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
-
 ### Dynamic Programming
 
 1. [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 2. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 3. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+4. [198. House Robber](https://leetcode.com/problems/house-robber/)
 
 ## Thanks List
 
