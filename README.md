@@ -52,6 +52,11 @@ Record practice with leetcode.
 1. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 2. [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
+
+### Dynamic Programming
+
+1. [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+
 ## Thanks List
 
 1. [leetcode.com - interview card](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
