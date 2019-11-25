@@ -59,6 +59,11 @@ Record practice with leetcode.
 2. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 3. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
+
+### Design
+
+1. [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)
+
 ## Thanks List
 
 1. [leetcode.com - interview card](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
