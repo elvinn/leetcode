@@ -63,6 +63,7 @@ Record practice with leetcode.
 ### Design
 
 1. [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)
+2. [155. Min Stack](https://leetcode.com/problems/min-stack/)
 
 ## Thanks List
 
