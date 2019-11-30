@@ -59,11 +59,15 @@ Record practice with leetcode.
 3. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 4. [198. House Robber](https://leetcode.com/problems/house-robber/)
 
-
 ### Design
 
 1. [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)
 2. [155. Min Stack](https://leetcode.com/problems/min-stack/)
+
+### Math
+
+1. [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
+
 
 ## Thanks List
 
