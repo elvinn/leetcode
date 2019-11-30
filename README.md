@@ -67,7 +67,7 @@ Record practice with leetcode.
 ### Math
 
 1. [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
-
+2. [204. Count Primes](https://leetcode.com/problems/count-primes/)
 
 ## Thanks List
 
