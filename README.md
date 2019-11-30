@@ -68,6 +68,7 @@ Record practice with leetcode.
 
 1. [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
 2. [204. Count Primes](https://leetcode.com/problems/count-primes/)
+3. [326. Power of Three](https://leetcode.com/problems/power-of-three/)
 
 ## Thanks List
 
