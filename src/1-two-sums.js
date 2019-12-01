@@ -1,5 +1,5 @@
 /**
- * https://leetcode.com/problems/two-sums/
+ * https://leetcode.com/problems/two-sum/
  *
  * Type: Array
  * Difficulty: Easy
@@ -10,7 +10,6 @@
 import test from 'ava'
 
 /**
- * Brute Force
  * Time Complexity: O(n)
  * Space Complexity: O(n)
  * @param {number[]} nums
