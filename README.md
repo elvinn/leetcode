@@ -74,6 +74,7 @@ Record practice with leetcode.
 ### Others
 
 1. [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+2. [461. Hamming Distance](https://leetcode.com/problems/hamming-distance/)
 
 ## Thanks List
 
