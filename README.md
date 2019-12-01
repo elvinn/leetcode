@@ -71,6 +71,10 @@ Record practice with leetcode.
 3. [326. Power of Three](https://leetcode.com/problems/power-of-three/)
 4. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
+### Others
+
+1. [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+
 ## Thanks List
 
 1. [leetcode.com - interview card](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
