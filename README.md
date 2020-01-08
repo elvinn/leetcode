@@ -2,6 +2,13 @@
 
 Record practice with leetcode.
 
+## Medium Problems
+
+### Array
+
+1. [15. 3Sum](https://leetcode.com/problems/3sum/)
+
+
 ## Easy Problems
 
 ### Array
@@ -81,3 +88,4 @@ Record practice with leetcode.
 ## Thanks List
 
 1. [leetcode.com - interview card](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
+1. [leetcode.com - interview card](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
