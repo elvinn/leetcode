@@ -9,6 +9,11 @@ Record practice with leetcode.
 1. [15. 3Sum](https://leetcode.com/problems/3sum/)
 2. [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
+### String
+
+1. [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+
+
 ## Easy Problems
 
 ### Array
