@@ -1,11 +1,11 @@
 /**
-* https://leetcode.com/problems/group-anagrams/
-*
-* Type: String
-* Difficulty: Medium
-* Time Complexity: O(N * K)
-* Space Complexity: O(N * K)
-*/
+ * https://leetcode.com/problems/group-anagrams/
+ *
+ * Type: String
+ * Difficulty: Medium
+ * Time Complexity: O(N * K)
+ * Space Complexity: O(N * K)
+ */
 
 import test from 'ava'
 
@@ -13,35 +13,31 @@ import test from 'ava'
  * @param {string[]} strs
  * @return {string[][]}
  */
-var groupAnagrams = function(strs) {
-  const map = {};
+var groupAnagrams = function (strs) {
+  const map = {}
   const charCodeA = 'a'.charCodeAt(0)
-  strs.forEach((str) => {
-    const key = [];
+  strs.forEach(str => {
+    const key = []
     for (let i = 0; i < str.length; i++) {
-      const offset = str.charCodeAt(i) - charCodeA;
-      key[offset] = key[offset] ? key[offset] + 1 : 1;
+      const offset = str.charCodeAt(i) - charCodeA
+      key[offset] = key[offset] ? key[offset] + 1 : 1
     }
     if (map[key]) {
       map[key].push(str)
     } else {
-      map[key] = [ str ]
+      map[key] = [str]
     }
-  });
+  })
 
-  return Object.values(map);
-};
+  return Object.values(map)
+}
 
 function main () {
   const testList = [
     {
-      testData: ["eat", "tea", "tan", "ate", "nat", "bat"],
-      result: [
-        ["ate","eat","tea"],
-        ["nat","tan"],
-        ["bat"]
-      ]
-    },
+      testData: ['eat', 'tea', 'tan', 'ate', 'nat', 'bat'],
+      result: [['ate', 'eat', 'tea'], ['nat', 'tan'], ['bat']]
+    }
   ]
 
   for (const { testData } of testList) {

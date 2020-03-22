@@ -12,7 +12,7 @@ Record practice with leetcode.
 ### String
 
 1. [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-
+2. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ## Easy Problems
 
@@ -92,5 +92,5 @@ Record practice with leetcode.
 
 ## Thanks List
 
-1. [leetcode.com - interview card](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
-1. [leetcode.com - interview card](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
+1. [leetcode.com - interview card easy questions](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
+1. [leetcode.com - interview card medium questions](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
