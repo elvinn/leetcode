@@ -13,6 +13,7 @@ Record practice with leetcode.
 
 1. [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 2. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+3. [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
 ## Easy Problems
 
