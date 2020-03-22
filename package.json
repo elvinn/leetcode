@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "record leetcode practice",
   "scripts": {
+    "nums": "ls -l src|grep \"^-\"|wc -l",
     "lint": "prettier-standard --lint",
     "test": "ava",
     "test:watch": "ava --watch --verbose"
