@@ -8,6 +8,7 @@ Record practice with leetcode.
 
 1. [15. 3Sum](https://leetcode.com/problems/3sum/)
 2. [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+3. [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
 
 ### String
 

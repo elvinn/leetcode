@@ -28,11 +28,9 @@ const longestPalindrome = function (s) {
   let end = 0
   for (let i = 0; i < s.length; i++) {
     const maxLen = Math.max(longestLen(s, i, i), longestLen(s, i, i + 1))
-    console.log(i, maxLen)
     if (maxLen > end - start + 1) {
       start = i - Math.floor((maxLen - 1) / 2)
       end = i + Math.floor(maxLen / 2)
-      console.log('change start end', i, maxLen, start, end)
     }
   }
   return s.slice(start, end + 1)
