@@ -16,6 +16,10 @@ Record practice with leetcode.
 2. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 3. [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
+### Linked List
+
+1. [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+
 ## Easy Problems
 
 ### Array
