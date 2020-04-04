@@ -57,6 +57,7 @@ Record practice with leetcode.
 4. [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 5. [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 6. [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+7. [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
 ### Trees
 
