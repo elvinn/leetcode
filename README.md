@@ -21,6 +21,10 @@ Record practice with leetcode.
 1. [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 2. [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 
+### Trees
+
+1. [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+
 ## Easy Problems
 
 ### Array
