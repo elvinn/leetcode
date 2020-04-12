@@ -14,7 +14,7 @@ import test from 'ava'
  * @param {TreeNode} root
  * @return {number[]}
  */
-const inorderTraversal1 = (root) => {
+const inorderTraversal1 = root => {
   const result = []
   helper(root, result)
   return result
@@ -35,7 +35,7 @@ const helper = (node, arr) => {
  * @param {TreeNode} root
  * @return {number[]}
  */
-const inorderTraversal2 = (root) => {
+const inorderTraversal2 = root => {
   const stack = []
   const result = []
   let node = root
@@ -54,9 +54,8 @@ const inorderTraversal2 = (root) => {
   return result
 }
 
-
 function main () {
-  test('No test for linked list problems', t =>{
+  test('No test for linked list problems', t => {
     t.is(typeof inorderTraversal1, 'function')
     t.is(typeof inorderTraversal2, 'function')
   })

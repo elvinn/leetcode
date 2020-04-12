@@ -24,6 +24,7 @@ Record practice with leetcode.
 ### Trees
 
 1. [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+2. [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 
 ## Easy Problems
 
