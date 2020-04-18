@@ -21,13 +21,17 @@ Record practice with leetcode.
 1. [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 2. [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 
-### Trees
+### Tree
 
 1. [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 2. [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 3. [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 4. [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 5. [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+
+### Graph
+
+1. [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
 ## Easy Problems
 
@@ -67,7 +71,7 @@ Record practice with leetcode.
 6. [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 7. [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
-### Trees
+### Tree
 
 1. [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 2. [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
