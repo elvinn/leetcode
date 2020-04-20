@@ -33,6 +33,10 @@ Record practice with leetcode.
 
 1. [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
+### Backtracking
+
+1. [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+
 ## Easy Problems
 
 ### Array

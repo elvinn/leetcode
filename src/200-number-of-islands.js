@@ -14,11 +14,8 @@ import test from 'ava'
  * @return {number}
  */
 const numIslands = grid => {
-
   const checkOne = (x, y) => {
-    if (!grid[x]
-      || grid[x][y] !== '1'
-    ) {
+    if (!grid[x] || grid[x][y] !== '1') {
       return false
     }
 
@@ -34,7 +31,6 @@ const numIslands = grid => {
   let res = 0
   grid.forEach((row, x) => {
     row.forEach((_, y) => {
-
       if (checkOne(x, y)) {
         res += 1
       }
@@ -65,21 +61,17 @@ function main () {
       result: 3
     },
     {
-      testData: [
-        ['1', '1', '1'],
-        ['0', '1', '0'],
-        ['1', '1', '1']
-      ],
+      testData: [['1', '1', '1'], ['0', '1', '0'], ['1', '1', '1']],
       result: 1
     },
     {
       testData: [
-        ["1","0","1","1","1"],
-        ["1","0","1","0","1"],
-        ["1","1","1","0","1"]
+        ['1', '0', '1', '1', '1'],
+        ['1', '0', '1', '0', '1'],
+        ['1', '1', '1', '0', '1']
       ],
       result: 1
-    },
+    }
   ]
 
   for (const { testData, result } of testList) {
