@@ -1,8 +1,9 @@
+/* eslint-disable */
 /**
  * visit tree node methods
  */
 
- /**
+/**
  * Definition for a binary tree node.
  * function TreeNode(val) {
  *     this.val = val;
@@ -14,9 +15,9 @@
  * BFS Visit
  * Time Complexity: O(n)
  * Space Complexity: O(n)
- * @param {Node} node 
+ * @param {Node} node
  */
-const bfsVisit = (node) => {
+const bfsVisit = node => {
   const result = []
   const queue = []
 
@@ -45,12 +46,12 @@ const bfsVisit = (node) => {
  * DFS: pre-order visit recursively
  * Time Complexity: O(n)
  * Space Complexity: O(n)
- * @param {Node} root 
+ * @param {Node} root
  */
-const preOrderVisitRecursively = (root) => {
+const preOrderVisitRecursively = root => {
   const result = []
 
-  const visit = (node) => {
+  const visit = node => {
     if (!node) {
       return
     }
@@ -70,11 +71,11 @@ const preOrderVisitRecursively = (root) => {
  * DFS: pre-order visit iteratively
  * Time Complexity: O(n)
  * Space Complexity: O(n)
- * @param {Node} root 
+ * @param {Node} root
  */
-const preOrderVisitIteratively = (root) => {
+const preOrderVisitIteratively = root => {
   const result = []
-  const stack = [ root ]
+  const stack = [root]
 
   while (stack.length) {
     const node = stack.pop()
@@ -96,12 +97,12 @@ const preOrderVisitIteratively = (root) => {
  * DFS: in-order visit recursively
  * Time Complexity: O(n)
  * Space Complexity: O(n)
- * @param {Node} root 
+ * @param {Node} root
  */
-const inOrderVisitRecursively = (root) => {
+const inOrderVisitRecursively = root => {
   const result = []
 
-  const visit = (node) => {
+  const visit = node => {
     if (!node) {
       return
     }
@@ -122,9 +123,9 @@ const inOrderVisitRecursively = (root) => {
  * DFS: in-order visit iteratively
  * Time Complexity: O(n)
  * Space Complexity: O(n)
- * @param {Node} root 
+ * @param {Node} root
  */
-const inOrderVisitIteratively = (root) => {
+const inOrderVisitIteratively = root => {
   const result = []
   const stack = []
 
@@ -149,12 +150,12 @@ const inOrderVisitIteratively = (root) => {
  * DFS: post-order visit iteratively
  * Time Complexity: O(n)
  * Space Complexity: O(n)
- * @param {Node} root 
+ * @param {Node} root
  */
-const postOrderVisitRecursively = (root) => {
+const postOrderVisitRecursively = root => {
   const result = []
 
-  const visit = (node) => {
+  const visit = node => {
     if (!node) {
       return
     }
@@ -175,11 +176,11 @@ const postOrderVisitRecursively = (root) => {
  * useing two stacks with reverse
  * Time Complexity: O(n)
  * Space Complexity: O(n)
- * @param {Node} root 
+ * @param {Node} root
  */
-const postOrderVisitIteratively1 = (root) => {
+const postOrderVisitIteratively1 = root => {
   const result = []
-  const stack = [ root ]
+  const stack = [root]
 
   if (!root) {
     return []
@@ -206,9 +207,9 @@ const postOrderVisitIteratively1 = (root) => {
  * DFS: post-order visit iteratively
  * Time Complexity: O(n)
  * Space Complexity: O(n)
- * @param {Node} root 
+ * @param {Node} root
  */
-const postOrderVisitIteratively2 = (root) => {
+const postOrderVisitIteratively2 = root => {
   const result = []
   const stack = []
 
