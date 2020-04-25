@@ -37,6 +37,7 @@ Record practice with leetcode.
 
 1. [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 2. [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+3. [46. Permutations](https://leetcode.com/problems/permutations/)
 
 ## Easy Problems
 
