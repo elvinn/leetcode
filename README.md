@@ -39,6 +39,7 @@ Record practice with leetcode.
 2. [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 3. [46. Permutations](https://leetcode.com/problems/permutations/)
 4. [78. Subsets](https://leetcode.com/problems/subsets/)
+5. [79. Word Search](https://leetcode.com/problems/word-search/)
 
 ## Easy Problems
 
