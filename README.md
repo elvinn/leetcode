@@ -44,6 +44,7 @@ Record practice with leetcode.
 ### Sorting
 
 1. [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
+2. [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 
 ## Easy Problems
 
