@@ -41,6 +41,10 @@ Record practice with leetcode.
 4. [78. Subsets](https://leetcode.com/problems/subsets/)
 5. [79. Word Search](https://leetcode.com/problems/word-search/)
 
+### Sorting
+
+1. [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
+
 ## Easy Problems
 
 ### Array
