@@ -96,6 +96,7 @@ Record practice with leetcode.
 
 1. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 2. [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
+3. [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
 ### Dynamic Programming
 
