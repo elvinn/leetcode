@@ -41,10 +41,11 @@ Record practice with leetcode.
 4. [78. Subsets](https://leetcode.com/problems/subsets/)
 5. [79. Word Search](https://leetcode.com/problems/word-search/)
 
-### Sorting
+### Sorting and Searching
 
 1. [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 2. [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+3. [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 
 ## Easy Problems
 
