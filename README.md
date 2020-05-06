@@ -46,6 +46,7 @@ Record practice with leetcode.
 1. [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 2. [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 3. [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+4. [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 ## Easy Problems
 
