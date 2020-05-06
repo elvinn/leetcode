@@ -19,22 +19,22 @@ const findKthLargest = (nums, k) => {
   k = nums.length - k
 
   const quickSort = (start, end) => {
-    const partionIndex = partion(start, end)
+    const partitionIndex = partition(start, end)
 
-    if (partionIndex === k) {
-      return nums[partionIndex]
+    if (partitionIndex === k) {
+      return nums[partitionIndex]
     }
 
-    if (partionIndex < k) {
-      return quickSort(partionIndex + 1, end)
+    if (partitionIndex < k) {
+      return quickSort(partitionIndex + 1, end)
     }
 
-    if (partionIndex > k) {
-      return quickSort(start, partionIndex - 1)
+    if (partitionIndex > k) {
+      return quickSort(start, partitionIndex - 1)
     }
   }
 
-  const partion = (start, end) => {
+  const partition = (start, end) => {
     const pivot = nums[start]
     let i = start
     let j = end
