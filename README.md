@@ -48,6 +48,7 @@ Record practice with leetcode.
 3. [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 4. [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 5. [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+6. [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
 ## Easy Problems
 
