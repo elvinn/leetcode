@@ -50,6 +50,10 @@ Record practice with leetcode.
 5. [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 6. [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
+### Dynamic Programming
+
+1. [55. Jump Game](https://leetcode.com/problems/jump-game/)
+
 ## Easy Problems
 
 ### Array
