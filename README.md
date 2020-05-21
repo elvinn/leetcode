@@ -53,6 +53,7 @@ Record practice with leetcode.
 ### Dynamic Programming
 
 1. [55. Jump Game](https://leetcode.com/problems/jump-game/)
+2. [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 
 ## Easy Problems
 
