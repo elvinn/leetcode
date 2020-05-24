@@ -41,10 +41,19 @@ Record practice with leetcode.
 4. [78. Subsets](https://leetcode.com/problems/subsets/)
 5. [79. Word Search](https://leetcode.com/problems/word-search/)
 
-### Sorting
+### Sorting and Searching
 
 1. [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 2. [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+3. [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+4. [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+5. [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+6. [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+
+### Dynamic Programming
+
+1. [55. Jump Game](https://leetcode.com/problems/jump-game/)
+2. [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 
 ## Easy Problems
 
@@ -97,6 +106,7 @@ Record practice with leetcode.
 1. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 2. [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 3. [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+4. [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 
 ### Dynamic Programming
 
