@@ -114,6 +114,7 @@ Record practice with leetcode.
 2. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 3. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 4. [198. House Robber](https://leetcode.com/problems/house-robber/)
+5. [322. Coin Change](https://leetcode.com/problems/coin-change/)
 
 ### Design
 
