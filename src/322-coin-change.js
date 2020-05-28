@@ -3,18 +3,19 @@
  *
  * Type: Dynamic Programming
  * Difficulty: Medium
- * Time Complexity: O()
- * Space Complexity: O()
+ * Time Complexity: O(amount * coinType)
+ * Space Complexity: O(amount)
  */
 
 import test from 'ava'
 
 /**
+ * Top down
  * @param {number[]} coins
  * @param {number} amount
  * @return {number}
  */
-const coinChange = (coins, amount) => {
+const coinChange1 = (coins, amount) => {
   const cache = {}
 
   const helper = leftAmount => {
@@ -43,6 +44,26 @@ const coinChange = (coins, amount) => {
   return helper(amount)
 }
 
+/**
+ * Bottom up
+ * @param {number[]} coins
+ * @param {number} amount
+ * @return {number}
+ */
+const coinChange2 = (coins, amount) => {
+  const cache = Array(amount + 1).fill(Number.MAX_SAFE_INTEGER)
+  cache[0] = 0
+  for (let i = 1; i <= amount; i++) {
+    coins.forEach(value => {
+      if (value <= i) {
+        cache[i] = Math.min(cache[i], cache[i - value] + 1)
+      }
+    })
+  }
+
+  return cache[amount] === Number.MAX_SAFE_INTEGER ? -1 : cache[amount]
+}
+
 function main () {
   const testList = [
     {
@@ -59,7 +80,8 @@ function main () {
 
   for (const { coins, amount, result } of testList) {
     test(JSON.stringify(coins) + amount, t => {
-      t.is(coinChange(coins, amount), result)
+      t.is(coinChange1(coins, amount), result)
+      t.is(coinChange2(coins, amount), result)
     })
   }
 }
