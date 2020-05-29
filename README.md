@@ -54,6 +54,8 @@ Record practice with leetcode.
 
 1. [55. Jump Game](https://leetcode.com/problems/jump-game/)
 2. [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+3. [322. Coin Change](https://leetcode.com/problems/coin-change/)
+4. [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 
 ## Easy Problems
 
