@@ -129,7 +129,8 @@ Record practice with leetcode.
 2. [204. Count Primes](https://leetcode.com/problems/count-primes/)
 3. [326. Power of Three](https://leetcode.com/problems/power-of-three/)
 4. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
-5. [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
+5. [202. Happy Number](https://leetcode.com/problems/happy-number/)
+6. [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
 
 ### Others
 
