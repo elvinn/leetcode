@@ -131,6 +131,7 @@ Record practice with leetcode.
 4. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 5. [202. Happy Number](https://leetcode.com/problems/happy-number/)
 6. [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
+7. [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)
 
 ### Others
 
