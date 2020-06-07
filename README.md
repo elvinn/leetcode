@@ -57,6 +57,10 @@ Record practice with leetcode.
 3. [322. Coin Change](https://leetcode.com/problems/coin-change/)
 4. [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 
+### Math
+
+1. [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
+
 ## Easy Problems
 
 ### Array
