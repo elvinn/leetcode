@@ -136,6 +136,7 @@ Record practice with leetcode.
 5. [202. Happy Number](https://leetcode.com/problems/happy-number/)
 6. [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
 7. [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)
+8. [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 
 ### Others
 
