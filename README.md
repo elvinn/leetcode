@@ -60,6 +60,7 @@ Record practice with leetcode.
 ### Math
 
 1. [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
+2. [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
 
 ## Easy Problems
 
