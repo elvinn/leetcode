@@ -77,6 +77,7 @@ Record practice with leetcode.
 9. [1. Two Sum](https://leetcode.com/problems/two-sum/)
 10. [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
 11. [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
+12. [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 
 ### String
 
@@ -149,4 +150,5 @@ Record practice with leetcode.
 ## Thanks List
 
 1. [leetcode.com - interview card easy questions](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
-1. [leetcode.com - interview card medium questions](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
+2. [leetcode.com - interview card medium questions](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
+3. [leetcode.com - interview card hard questions](https://leetcode.com/explore/interview/card/top-interview-questions-hard/)
