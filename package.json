@@ -4,7 +4,9 @@
   "description": "record leetcode practice",
   "scripts": {
     "nums": "ls -l src|grep \"^-\"|wc -l",
-    "lint": "prettier-standard --lint",
+    "lint": "npm run lint:js && npm run lint:cpp",
+    "lint:js": "prettier-standard --lint",
+    "lint:cpp": "clang-format -i ./src/*.cpp",
     "test": "ava",
     "test:watch": "ava --watch --verbose"
   },

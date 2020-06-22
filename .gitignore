@@ -1,5 +1,6 @@
 # Custom file
 x.js
+*.out
 
 # Logs
 logs

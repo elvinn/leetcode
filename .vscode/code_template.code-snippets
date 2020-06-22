@@ -15,7 +15,7 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"Quick Start": {
+	"Quick Start JS": {
 		"scope": "javascript,typescript",
 		"prefix": "start",
 		"body": [
@@ -46,7 +46,33 @@
 			"  }",
 			"}",
 			"",
-			"main()"
+			"main()",
+			"",
+		]
+	},
+	"Quick Start": {
+		"scope": "cpp",
+		"prefix": "start",
+		"body": [
+			"/**",
+			"* $1",
+			"*",
+			"* Type: $2",
+			"* Difficulty: $3",
+			"* Time Complexity: O($4)",
+			"* Space Complexity: O($5)",
+			"*/",
+			"",
+			"#include <cassert>",
+			"using namespace std;",
+			"",
+			"",
+			"int main() {",
+			"  Solution mySolution;",
+			"",
+			"  return 0;",
+			"}",
+			"",
 		]
 	}
 }
