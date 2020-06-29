@@ -11,6 +11,7 @@ Record practice with leetcode.
 3. [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
 4. [4Sum II](https://leetcode.com/problems/4sum-ii/)
 5. [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+6. [289. Game of Life](https://leetcode.com/problems/game-of-life/)
 
 ### String
 
