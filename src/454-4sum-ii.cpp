@@ -41,10 +41,10 @@ public:
 int main() {
   Solution mySolution;
 
-  vector<int> A {1, 2};
-  vector<int> B {-2, -1};
-  vector<int> C {-1, 2};
-  vector<int> D {0, 2};
+  vector<int> A{1, 2};
+  vector<int> B{-2, -1};
+  vector<int> C{-1, 2};
+  vector<int> D{0, 2};
   assert(mySolution.fourSumCount(A, B, C, D) == 3);
 
   return 0;
