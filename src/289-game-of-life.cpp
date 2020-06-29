@@ -78,15 +78,7 @@ int main() {
   };
 
   mySolution.gameOfLife(input);
-
-  const int rows = input.size();
-  const int cols = input[0].size();
-
-  for (int i = 0; i < rows; i++) {
-    for (int j = 0; j < cols; j++) {
-      assert(input[i][j] == output[i][j]);
-    }
-  }
+  assert(input == output);
 
   return 0;
 }
