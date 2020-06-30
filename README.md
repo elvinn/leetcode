@@ -2,6 +2,12 @@
 
 Record practice with leetcode.
 
+## Hard Problems
+
+### Array
+
+1. [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+
 ## Medium Problems
 
 ### Array
