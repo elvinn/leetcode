@@ -7,6 +7,7 @@ Record practice with leetcode.
 ### Array
 
 1. [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+2. [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 ## Medium Problems
 
