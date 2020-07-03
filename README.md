@@ -19,6 +19,7 @@ Record practice with leetcode.
 4. [4Sum II](https://leetcode.com/problems/4sum-ii/)
 5. [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 6. [289. Game of Life](https://leetcode.com/problems/game-of-life/)
+7. [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 
 ### String
 
