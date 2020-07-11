@@ -21,6 +21,7 @@ Record practice with leetcode.
 6. [289. Game of Life](https://leetcode.com/problems/game-of-life/)
 7. [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 8. [1503. Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/contest/weekly-contest-196/problems/last-moment-before-all-ants-fall-out-of-a-plank/)
+9. [1504. Count Submatrices With All Ones](https://leetcode.com/contest/weekly-contest-196/problems/count-submatrices-with-all-ones/)
 
 ### String
 
