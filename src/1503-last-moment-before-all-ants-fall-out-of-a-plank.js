@@ -22,14 +22,6 @@ const getLastMoment = (n, left, right) => {
   left.forEach(i => (mostLeft = Math.max(mostLeft, i)))
   right.forEach(i => (mostRight = Math.min(mostRight, i)))
 
-  if (left.length === 0) {
-    return n - mostRight
-  }
-
-  if (right.length === 0) {
-    return mostLeft
-  }
-
   return Math.max(mostLeft, n - mostRight)
 }
 
