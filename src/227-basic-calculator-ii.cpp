@@ -20,66 +20,54 @@ public:
       return 0;
     }
 
-    stack<char> charStack;
+    s += '#';
+    stack<int> intStack;
 
-    int index = 0;
-    while (index < s.length()) {
-      const char ch = s.at(index);
-      if (ch == ' ') {
-        index += 1;
+    int curNum = 0;
+    char preOption = '+';
+    for (int i = 0; i < s.size(); i++) {
+      if (s[i] == ' ') {
         continue;
       }
-      
-      if (ch == '*' || ch == '/') {
-        const int num1 = charStack.top() - '0';
-        char ch2;
-        do {
-          index += 1;
-          ch2 = s.at(index);
-        } while (ch2 == ' ');
-        
-        const int num2 = ch2 - '0';
-        charStack.pop();
 
-        int result;
-        if (ch == '*') {
-          result = num1 * num2;
-        } else {
-          result = num1 / num2;
-        }
-
-        charStack.push(result + '0');
-      } else {
-        charStack.push(s.at(index));
+      if (s[i] >= '0' && s[i] <= '9') {
+        curNum = curNum * 10 + (s[i] - '0');
+        continue;
       }
 
-      index += 1;
-    }
-
-    int result = 0;
-    while (charStack.size() > 0) {
-      const char ch = charStack.top();
-      charStack.pop();
-
-      if (ch == '+') {
-        result += charStack.top() - '0';
-        charStack.pop();
-      } else if (ch == '-') {
-        result -= charStack.top() - '0';
-        charStack.pop();
-      } else {
-        result = ch - '0';
+      switch (preOption) {
+      case '+':
+        intStack.push(curNum);
+        break;
+      case '-':
+        intStack.push(-curNum);
+        break;
+      case '*':
+        intStack.top() *= curNum;
+        break;
+      case '/':
+        intStack.top() /= curNum;
+      default:
+        break;
       }
+
+      curNum = 0;
+      preOption = s[i];
     }
 
-    return result;
+    int res = 0;
+    while (!intStack.empty()) {
+      res += intStack.top();
+      intStack.pop();
+    }
+
+    return res;
   };
 };
 
 int main() {
   Solution mySolution;
 
-  cout << mySolution.calculate("3+2*2") << endl;
   assert(mySolution.calculate("3+2*2") == 7);
   assert(mySolution.calculate(" 3/2 ") == 1);
   assert(mySolution.calculate(" 3+5 / 2 ") == 5);
