@@ -11,6 +11,10 @@ Record practice with leetcode.
 3. [239.  Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 4. [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 
+### Linked List
+
+1. [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+
 ## Medium Problems
 
 ### Array
