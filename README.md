@@ -40,6 +40,7 @@ Record practice with leetcode.
 
 1. [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 2. [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
+3. [148. Sort List](https://leetcode.com/problems/sort-list/)
 
 ### Tree
 
