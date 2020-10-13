@@ -1,22 +1,22 @@
 /**
-* https://leetcode.com/problems/sliding-window-maximum/
-*
-* Type: Deque
-* Difficulty: Hard
-* Time Complexity: O(n)n
-* Space Complexity: O()
-*/
+ * https://leetcode.com/problems/sliding-window-maximum/
+ *
+ * Type: Deque
+ * Difficulty: Hard
+ * Time Complexity: O(n)n
+ * Space Complexity: O()
+ */
 
 #include <cassert>
-#include <vector>
 #include <deque>
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 class Solution {
 public:
-  vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+  vector<int> maxSlidingWindow(vector<int> &nums, int k) {
     if (k == 1) {
       return nums;
     }
@@ -30,7 +30,7 @@ public:
       while (!window.empty() && curNum > nums[window.back()]) {
         window.pop_back();
       }
-      
+
       window.push_back(i);
     }
 
@@ -58,11 +58,11 @@ public:
 int main() {
   Solution mySolution;
 
-  vector<int> nums = {1,3,-1,-3,5,3,6,7};
+  vector<int> nums = {1, 3, -1, -3, 5, 3, 6, 7};
   const int k = 3;
-  const vector<int> result = {3,3,5,5,6,7};
+  const vector<int> result = {3, 3, 5, 5, 6, 7};
 
   assert(mySolution.maxSlidingWindow(nums, k) == result);
-  
+
   return 0;
 }

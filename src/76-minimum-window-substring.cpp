@@ -1,25 +1,25 @@
 /**
-* https://leetcode.com/problems/minimum-window-substring/
-*
-* Type: Array (Sliding Window)
-* Difficulty: Hard
-* Time Complexity: O(m + n)
-* Space Complexity: O(m + n)
-*/
+ * https://leetcode.com/problems/minimum-window-substring/
+ *
+ * Type: Array (Sliding Window)
+ * Difficulty: Hard
+ * Time Complexity: O(m + n)
+ * Space Complexity: O(m + n)
+ */
 
 #include <cassert>
-#include <unordered_map>
-#include <string>
 #include <climits>
+#include <string>
+#include <unordered_map>
 
 using namespace std;
 
 class Solution {
 public:
-  unordered_map <char, int> originCharMap, charCounterMap;
+  unordered_map<char, int> originCharMap, charCounterMap;
 
   bool isValid() {
-    for (const auto &p: originCharMap) {
+    for (const auto &p : originCharMap) {
       if (charCounterMap[p.first] < p.second) {
         return false;
       }
@@ -29,7 +29,7 @@ public:
   }
 
   string minWindow(string s, string t) {
-    for (const auto &c: t) {
+    for (const auto &c : t) {
       originCharMap[c]++;
     }
 
@@ -38,13 +38,13 @@ public:
     int minLength = INT_MAX;
     int resultLeft = -1;
 
-    while(rightIndex < s.size()) {
+    while (rightIndex < s.size()) {
       const char rightChar = s[rightIndex];
       if (originCharMap.find(rightChar) != originCharMap.end()) {
         charCounterMap[rightChar]++;
       }
 
-      while(isValid() && leftIndex <= rightIndex) {
+      while (isValid() && leftIndex <= rightIndex) {
         if (rightIndex - leftIndex + 1 < minLength) {
           minLength = rightIndex - leftIndex + 1;
           resultLeft = leftIndex;

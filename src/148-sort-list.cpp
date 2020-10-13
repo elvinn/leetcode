@@ -1,11 +1,11 @@
 /**
-* https://leetcode.com/problems/sort-list/
-*
-* Type: Linked List
-* Difficulty: Medium
-* Time Complexity: O(nlog(n))
-* Space Complexity: O(1)
-*/
+ * https://leetcode.com/problems/sort-list/
+ *
+ * Type: Linked List
+ * Difficulty: Medium
+ * Time Complexity: O(nlog(n))
+ * Space Complexity: O(1)
+ */
 
 #include <cassert>
 #include <iostream>
@@ -31,7 +31,7 @@ struct ListNode {
 
 class Solution {
 public:
-  ListNode* sortList(ListNode* head) {
+  ListNode *sortList(ListNode *head) {
     ListNode dummyNode;
     dummyNode.next = head;
 
@@ -39,73 +39,63 @@ public:
 
     auto p = &dummyNode;
     int length = 0;
-    while (p->next)
-    {
+    while (p->next) {
       p = p->next;
       length += 1;
     }
     cout << length << endl;
-    
-    for (int size = 1; size < length; size *= 2)
-    {
+
+    for (int size = 1; size < length; size *= 2) {
       auto tail = &dummyNode;
       auto cur = dummyNode.next;
 
-      while (cur)
-      {
+      while (cur) {
         auto left = cur;
         auto right = cut(left, size);
         cur = cut(right, size);
 
         tail->next = merge(left, right);
 
-        while (tail->next)
-        {
+        while (tail->next) {
           tail = tail->next;
         }
       }
     }
-    
+
     return dummyNode.next;
   }
 
-  ListNode* cut(ListNode* head, int n) {
+  ListNode *cut(ListNode *head, int n) {
     auto temp = head;
 
-    while (temp && --n)
-    {
+    while (temp && --n) {
       temp = temp->next;
     }
 
-    if (!temp)
-    {
+    if (!temp) {
       return nullptr;
     }
-    
+
     auto result = temp->next;
     temp->next = nullptr;
     return result;
   }
 
-  ListNode* merge(ListNode* head1, ListNode* head2) {
+  ListNode *merge(ListNode *head1, ListNode *head2) {
     ListNode dummyHead;
     auto p = &dummyHead;
-    while (head1 && head2)
-    {
-      if (head1->val < head2->val)
-      {
+    while (head1 && head2) {
+      if (head1->val < head2->val) {
         p->next = head1;
         p = p->next;
         head1 = head1->next;
-      }
-      else 
-      {
+      } else {
         p->next = head2;
         p = p->next;
         head2 = head2->next;
       }
     }
-    
+
     p->next = head1 ? head1 : head2;
 
     return dummyHead.next;
