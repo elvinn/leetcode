@@ -62,6 +62,7 @@ Record practice with leetcode.
 3. [46. Permutations](https://leetcode.com/problems/permutations/)
 4. [78. Subsets](https://leetcode.com/problems/subsets/)
 5. [79. Word Search](https://leetcode.com/problems/word-search/)
+6. [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 
 ### Sorting and Searching
 
