@@ -3,8 +3,8 @@
  *
  * Type: Backtracking
  * Difficulty: Medium
- * Time Complexity: O()
- * Space Complexity: O()
+ * Time Complexity: O(N * 2^N)
+ * Space Complexity: O(N)
  */
 
 #include <cassert>
@@ -27,46 +27,44 @@ public:
       return result;
     }
 
-    vector<string> empty;
-    helper(result, empty, s);
+    vector<string> valid_partion;
+    dfs(result, valid_partion, s, 0);
 
     return result;
   }
 
-  void helper(vector<vector<string>> &result, vector<string> valid_partion,
-              string s) {
-    const size_t s_length = s.length();
-    for (size_t i = 1; i <= s_length; i++) {
-      string s1 = s.substr(0, i);
-      if (!is_palindrome(s1)) {
+  void dfs(vector<vector<string>> &result, vector<string> &valid_partion,
+           string s, int start) {
+    if (start >= s.length()) {
+      result.push_back(valid_partion);
+      return;
+    }
+
+    for (int end = start; end < s.length(); end++) {
+      cout << start << ',' << end << endl;
+      ;
+      if (!is_palindrome(s, start, end)) {
         continue;
       }
 
-      valid_partion.push_back(s1);
+      valid_partion.push_back(s.substr(start, end - start + 1));
 
-      if (i == s_length - 1) {
-        valid_partion.push_back(s.substr(i, 1));
-        result.push_back(vector<string>(valid_partion));
-        valid_partion.pop_back();
-        valid_partion.pop_back();
-      } else if (i == s_length) {
-        result.push_back(vector<string>(valid_partion));
-      } else {
-        string s2 = s.substr(i, s_length - i);
-        helper(result, valid_partion, s2);
-        valid_partion.pop_back();
-      }
+      dfs(result, valid_partion, s, end + 1);
+
+      valid_partion.pop_back();
     }
   }
 
-  bool is_palindrome(string s) {
-    size_t mid = s.length() / 2;
-    size_t back_end = s.length() - 1;
-    for (size_t i = 0; i < mid; i++) {
-      if (s.at(i) != s.at(back_end - i)) {
+  bool is_palindrome(string &s, int low, int high) {
+    while (low < high) {
+      if (s[low] != s[high]) {
         return false;
       }
+
+      low++;
+      high--;
     }
+
     return true;
   }
 };
