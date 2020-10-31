@@ -67,6 +67,7 @@ Record practice with leetcode.
 4. [78. Subsets](https://leetcode.com/problems/subsets/)
 5. [79. Word Search](https://leetcode.com/problems/word-search/)
 6. [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+7. [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)
 
 ### Sorting and Searching
 
