@@ -18,6 +18,7 @@ Record practice with leetcode.
 ## Backtracking
 
 1. [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
+2. [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
 
 ## Medium Problems
 
