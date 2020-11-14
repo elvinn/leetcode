@@ -79,6 +79,7 @@ Record practice with leetcode.
 4. [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 5. [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 6. [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+7. [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 
 ### Dynamic Programming
 
