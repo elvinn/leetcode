@@ -15,11 +15,15 @@ Record practice with leetcode.
 
 1. [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
-## Backtracking
+### Backtracking
 
 1. [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
 2. [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
 3. [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+
+### Sorting and Searching
+
+1. [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 ## Medium Problems
 
